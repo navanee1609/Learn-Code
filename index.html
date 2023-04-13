@@ -1,0 +1,528 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Learn-Code Academy</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="text-primary">Learn Code-</span>Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#courses">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testi"> Our Community</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Reach us</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+              <a href="#sign-up" class="btn btn-secondary">Log-in</a>
+
+
+                
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <section class="p-5">
+          <div class="container">
+              <div class="row justify-content-start align-items-md-center">
+                  <div class="col-md">
+                      <img class="img-fluid" class="order-lg-2" src="./img/home.png" alt="">
+
+                  </div>
+                  <div class="col m-3 order-lg-1">
+                      <h1 class="mb-2">Join the millions learning to code with Learn-Code for free</h1>
+                      <label for="email" class="form-label"> E-mail</label>
+                      <input type="email" class="form-control  mb-2" id="email" placeholder="Enter your valid e-mail id">
+                      <label for="password" class="form-label"> Password</label>
+                      <input type="password" class="form-control  mb-2" id="password" placeholder="Enter your password">
+                      <button class=" btn mt-3 w-50 btn-primary ">Sign-up</button>
+                      <p class="lead mt-4">By signing up for you agree to Learn-Code's<a href="#"> terms of services and policies</a></p>
+                      <h4 class="m-2 mb-3" id="sign-up">or sign-up by using</h4>
+                      <a href="#"><i class="bi bi-linkedin mx-2 text-secondary" style="font-size: 22px;"></i></a>
+                      <a href="#"><i class="bi bi-google mx-2 text-secondary " style="font-size:22px"></i></a>
+                      <a href="#"><i class="bi bi-facebook mx-2 text-secondary" style="font-size:22px"></i></a>
+                      <a href="#"><i class="bi bi-github mx-2 text-secondary" style="font-size:22px"></i></a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="p-5" id="courses">
+        <div class="container">
+          <h1 class="text-center p-2 m-2">Trending Courses</h1>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/data-science-training-in-chennai.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                     Data-Science
+                  </div>
+                  <p class="card-text">Build Your Career Expertise In Data Manipulation, Visualization, Predictive Analytics, Machine Learning, And Data Science At Learn-Code.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./img/cloud-computing-training-in-chennai-2022.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                     Cloud-Computing
+                  </div>
+                  <p class="card-text">Learn-Code Teaching Methods In Cloud Computing Is Tremendous One. Also, The Trainers Will Help You To Master The Outstanding Concepts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./img/Machine-Learning-Training-In-Chennai.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                    Machine Learning
+                  </div>
+                  <p class="card-text">Machine Learning Course at Learn-Code Offers An In-Depth Summary Of Machine Learning Topics Including Real-Time Data And Developing Algorithms.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/PowerBI-Training-In-Chennai.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                     Power-BI
+                  </div>
+                  <p class="card-text">Microsoft Power BI Course Helps You Learn Advanced Business Intelligence Tools And Concepts To Analyze And Visualize Data. Master The Concepts Such As Power BI Desktop, Architecture,Reports Etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/Aws-Training-In-Chennai.webp" class="card-img-top"  alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                    AWS_Training
+                  </div>
+                  <p class="card-text">Expertise Your AWS Skills With Professional AWS Trainers At Learn-Code. Learn AWS Easily Online At Your Comfortable Timings. Best AWS Training In Chennai.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card">
+                <img src="./img/Software-Testing-training-in-chennai.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title text-warning">
+                     Software-Testing
+                  </div>
+                  <p class="card-text">Software Testing Course At Learn-Code Covers The Full Testing Process With Industry Standards. Learn To Catch Bugs By Different Testing Methods. Selenium, Core Java, Web And Mobile App Testing, And More.</p>
+                </div>
+              </div>
+            </div>
+
+            <p>Do you want to learn from the best software training institute in Chennai? If so, then you’ve arrived at the right place! Learn-Code Technologies’ best software training institute in Chennai strives to fulfill the candidates’ career aspirations in various ways. Here are the reasons why you should choose Learn-Code technologies’ to kick-start your IT career! So let’s get started with reasons why Learn-Code Technologies’ best software training institute in Chennai is the perfect place to start your IT career!</p>
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="bg-dark p-2 text-light border-top">
+        <div class="container">
+          <div class="row justify-content-around align-content-center">
+            <div class="col-md">
+              <img src="./img/javascript code.jpg" class=" img-fluid my-3" alt="">
+            </div>
+            <div class="col-md m-4">
+              <h3>The Platform</h3>
+              <h1 class="mb-3">Hands-on Learning</h1>
+              <p class="my-3">Don't just watch or read about someone else coding Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson.</p>
+
+            <button class="btn btn-warning">Continue Lessons</button>
+            <a class="btn btn-primary my-4" data-bs-toggle="offcanvas" href="#course" role="button" aria-controls="sidebar">
+              More Beginner Courses
+            </a>
+          
+
+
+
+
+            <div class="offcanvas bg-dark offcanvas-start" tabindex="-1" id="course" aria-labelledby="sidebar-label">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="sidebar-label">Our other Courses</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit impedit necessitatibus fugit nemo voluptate adipisci, fugiat in facilis illum? Distinctio dolores necessitatibus explicabo quis eligendi. In, accusantium. Maxime laborum consectetur adipisci dolore hic dignissimos a voluptate ad, nisi porro atque inventore labore recusandae? Voluptatem vel nesciunt id et natus tenetur eveniet deserunt fugit non necessitatibus possimus veritatis odio atque maiores ipsa facilis, aperiam eum quas ad impedit minus totam nihil tempore. Accusamus, mollitia minus. Cumque, vel recusandae?
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Choose a Beginner course
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Become a Master in HTML & CSS</a></li>
+                    <li><a class="dropdown-item" href="#">Become a Master in Javascript</a></li>
+                    <li><a class="dropdown-item" href="#">Become a Master in Reactjs</a></li>
+                    <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
+                    <li><a class="dropdown-item" href="#">Levelling up Your Next.js</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="p-3 bg-warning border-top">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md">
+              <h1 class="m-3">Not sure where to start?</h1>
+              <h5 class="m-3">This short quiz will sort you out. Answer a few simple questions to get personal career advice and course recommendations.</h5>
+              <button class="btn btn-primary mb-3">Take quiz</button>
+            </div>
+            <div class="col-md">
+              <img src="./img/p-1.jfif" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="p-3 bg-primary text-light border-top">
+          <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 p-3">
+                  <h1>Join in on
+                      something big</h1>
+                </div>
+                <div class="col-md-3 p-3">
+                  <h1>50M
+                      Learners</h1>
+                </div>
+                <div class="col-md-3 p-3"><h1>190+
+                  Countries</h1></div>
+                <div class="col p-3">
+                  <h1>3.7B
+                      Code submits</h1>
+                </div>
+              </div>
+          </div>
+      </section> 
+
+
+      <section class="p-5 bg-opacity-25" id="about">
+        <div class="container ">
+          <h1>The Gateway to Success to Enter in IT Industry</h1>
+          <p>Learn code welcomes candidates with a diverse range of skills, providing them with all the necessary knowledge and helping them build their careers. The best software IT training institute in Chennai also helps candidates build a successful career by guiding them on what they should do next. They offer employment opportunities for those who want to work on their own terms.</p>
+
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Software Training Institute in Chennai with Placements
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Learn-Code, the fastest-growing IT Training Institute in Chennai offers a wide variety of courses for students and professionals. The courses offered byLearn code Technologies are designed as per the latest industry trends and requirements. With industry-leading trainers, we ensure that our students are always updated with all new skills required by them. 
+
+                    Our placement team ensures that our candidates get placed in their desired positions soon after they complete their course. We believe that our biggest achievement is when we see one of our candidates get placed at his/her dream company.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Increase Your Career Opportunities with Learn code Technologies
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <p>The best IT training institute in Chennai helps freshers and working professionals alike to up-skill themselves with the latest technologies. They offer a wide range of courses from Aws, Java, Python, Data Science, Power BI, AI, ML, etc. Their well-trained faculty provides input on how students can get an edge over others by developing their skills and knowledge about specific topics. In addition, they also have workshops that help develop soft skills like time management, leadership skills, and team building.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Numerous Advantages of Joining Learn-Code
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+             <p>Learn code provides a variety of courses like web designing, Java, Python, Selenium, and much more. These courses are available for people with diverse skill sets and backgrounds.Learn code also provides quality training for students who want to gain experience before they enter the job market.
+
+             Learn code’s teaching methodology is based on active learning. This helps candidates retain knowledge better because they are involved in its creation process. The educators atLearn code also provide individual attention to each student so that they can excel in their respective fields.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="p-5" id="testi">
+        <div class="container">
+          <h1 class="bg-dark text-light mb-5 text-center p-2">
+            Why you choose us ?
+          </h1>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Years Of Experience</h5>
+                    <p class="card-text">Learn Code Started Its Journey In 2010 As A Software Training Institute. Since Our Journey Started We Offer 150+ Different Types Of Software Courses Like Oracle, Web Development, Linux, Selenium, Unix, Java, Dot Net, Cloud Computing, More...</p>
+                    <button class="btn btn-primary mb-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enroll">
+                    Enroll Now
+                 </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">30,000+ Students</h5>
+                    <p class="card-text">We Trained Over 30,000+ Students To Reach Their Career Goals. Also, We Not Only Help Them To Learn About The Software But Also Prepare Them To Face The Interview With Good Attitude And Knowledgeable. We Have Provided 100% Results .</p>
+                    <button class="btn btn-primary mb-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enroll">
+                    Enroll Now
+                 </button>
+                  </div>
+                </div>
+            </div>
+            </div>
+           
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">100% Placement Guaranteed</h5>
+                    <p class="card-text">Studying In A Institute, People Always Comes Up With Two Reasons In Their Mind. The First Thing Is To GainThe Knowledge Of The Respective Courses, And The Second One Is Obviously, Do We Get The Placements In Top Companies As Per CTC Standards .</p>
+                    <button class="btn btn-primary mb-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enroll">
+                    Enroll Now
+                 </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Real-Time & Experienced Faculty</h5>
+                    <p class="card-text">At Learn Code, You Will Learn From Experts Who Work On Top-Level MNC Companies Dedicated To Sharing Their Knowledge With Their Learners To Achieve Their Goals. Everyone Is Personally Mentored By Industry Experts.</p>
+                    <button class="btn btn-primary mb-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enroll">
+                    Enroll Now
+                 </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">100% Legitable Certificate</h5>
+                    <p class="card-text">Once The Candidate Finished The Course. The Candidates Should Get Their Respective Course Certificates Provided ByLearn code Technologies. You Can Use The Certificate Anywhere. The Certificate Is Legit You Can Use It For Global Purposes</p>
+                    <button class="btn btn-primary mb-5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enroll">
+                    Enroll Now
+                 </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card text-center">
+                  <img src="./img/ser1.jpg" class="card-img-top img-fluid rounded mx-auto d-block m-1" style="height: max-height=30%;width:222px"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Affordable Fees With Great Quality</h5>
+                    <p class="card-text">Learn Code Academy, Our Motto is Quality Training at Affordable Fees. “Your Great Goals, Comes With Fewer Fees". Also, Our Students says, we are the software training institute in Chennai You Can Use It For Global Purposes.</p>
+                    <button class="btn btn-primary mb-5"
+               data-bs-toggle="modal"
+               data-bs-target="#enroll">
+               Enroll Now
+            </button>
+                    
+                       
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal-title">Enrollememt</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Enroll faster only few seats available</p>
+        <label for="name" class="form-label">Name : </label>
+        <input type="text" id="name" class="form-control" placeholder="eg John Doe">
+        <label for="email" class="form-label">E-mail : </label>
+        <input type="email" id="email" class="form-control" placeholder=" eg jophndoe@gmail.com">
+        <label for="phone" class="form-label">Contact Number  : </label>
+        <input type="number" id="phone" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+      <section class="p-5 bg-primary text-light border-top">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md">
+              <img src="./img/pexels-fauxels-3184611.jpg"class="img-fluid rounded" alt="">
+
+            </div>
+            <div class="col-md">
+              <h1 class="my-2">Start for free</h1>
+              <p class="mb-4">If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.</p>
+              <button class="btn btn-warning text-center">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="p-5" id="contact">
+        <div class="container">
+          <h1 class="bg-primary text-light text-center m-1">Visit us</h1>
+          <div class="row">
+            <div class="col-md-5 my-3">
+              <h1 class="border-bottom">Contact-Us</h1>
+              <p>If You Have Any Enquiry Or Any Doubts Related To Course, Please Feel Free To Contact Us. Our Learn-Code Support Team, Love To Assist You Anytime 24*7. Contact Us To The Address, Number Mentioned Below,</p>
+              <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">Address to Visit Us</li>
+                <li class="list-group-item">No: 123,</li>
+                <li class="list-group-item">XYZ Street</li>
+                <li class="list-group-item">XY-City</li>
+                <li class="list-group-item">Chennai </li>
+                <li class="list-group-item">Tamil-Nadu </li>
+                <li class="list-group-item">India </li>
+              </ul>
+            </div>
+            <div class="col-md-6  m-4 bg-light">
+             <h1 class="bg-primary text-light p-2 m-2 text-center">Enquire Now</h1>
+             <form>
+              <label for="name" class="label-group mb-1">Name *</label>
+              <input type="text" class="form-control w-md-50" id="name" placeholder="Enter Name">
+              <label for="email" class="label-group mb-1">E-mail *</label>
+              <input type="email" class="form-control w--md-50" id="email" placeholder="Enter e-mail">
+              <label for="number" class="label-group mb-1">Phone Number *</label>
+              <input type="number" class="form-control w-md-50" id="number" placeholder="Enter Number">
+              <label for="location" class="label-group mb-1">Location *</label>
+              <input type="name" class="form-control w-md-50" id="location" placeholder="Enter Location">
+              <label for="course" class="label-group mb-1">Course want to enquire *</label>
+              <input type="name" class="form-control w-md-50 mb-4" id="course" placeholder="Enter Course to enquire">
+             </form>
+            </div>
+             <div class="col-md-10 mb-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4012924.12383846!2d78.28976490000001!3d10.821166349999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1680870139211!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+
+    <footer class="p-5 bg-dark border-top text-light position-relative">
+      <div class="container">
+        <h2 class="text-center p-2 m-2">
+          All copyrights reserved &copy; 2023 Learn-Code
+        </h2>
+        <a href="#" class="position-absolute end-0 bottom-0">
+          <h1><i class="bi bi-arrow-up-circle"></i></h1>
+        </a>
+      
+             <div class="text-center">
+               <button class="btn btn-dark">Terms</button>
+              <button class="btn btn-dark">Privacy Policy</button>
+              <button class="btn btn-dark">Cookie Policy</button>
+              <a href="#" class="text-secondary d-inline-block p-1">
+                <h4><i class="bi bi-facebook"></i></h4>
+              <a href="#" class="text-secondary d-inline-block p-1">
+                <h4><i class="bi bi-instagram "></i></h4>
+              <a href="#" class="text-secondary d-inline-block p-1">
+                <h4><i class="bi bi-twitter "></i></h4>
+              <a href="#" class="text-secondary d-inline-block p-1">
+                <h4><i class="bi bi-linkedin"></i></h4>
+             </div>
+
+      </div>
+
+    </footer>
+      
+
+      
+
+
+
+    
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+  </html>
